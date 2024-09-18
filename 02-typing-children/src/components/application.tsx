@@ -8,7 +8,7 @@
  * React.ReactChild[];
  */
 
-type BoxProps = { children: any /* 👈 Get rid of this! */ };
+type BoxProps = { children: React.ReactNode };
 
 const Box = ({ children }: BoxProps) => {
   return (
